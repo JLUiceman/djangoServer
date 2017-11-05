@@ -55,6 +55,8 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_WHITELIST = (
     'google.com',
+    'localhost:80',
+    '127.0.0.1:80',
     'localhost:3000',
     '127.0.0.1:8000'
 )
